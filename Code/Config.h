@@ -1,0 +1,10 @@
+#ifndef _CONFIG_H
+#define _CONFIG_H
+
+#define FIELDS_PER_BLOCK 8
+#define MAX_NUM_OF_FIELDS_IN_RELATION 8
+#define NUM_OF_BLOCKS_IN_MEMORY 10 
+#define SIMULATED_DISK_LATENCY_ON 1 
+#define DISK_I_O_DEBUG 0
+
+#endif

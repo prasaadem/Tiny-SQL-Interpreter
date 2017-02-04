@@ -1,0 +1,1254 @@
+Output of TinySQL Query File: Test3.txt
+CREATE TABLE r (a INT, b INT)
+Table: r created sucessfully
+Number of Disk I/O: 0   Elapsed time in milliseconds: 0
+### <------------------------------------------------------------------------> ###
+
+CREATE TABLE s (b INT, c INT)
+Table: s created sucessfully
+Number of Disk I/O: 0   Elapsed time in milliseconds: 0
+### <------------------------------------------------------------------------> ###
+
+CREATE TABLE t (a INT, c INT)
+Table: t created sucessfully
+Number of Disk I/O: 0   Elapsed time in milliseconds: 0
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (0, 0)
+Number of Disk I/O: 1   Elapsed time in milliseconds: 74.63
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (1, 1)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (1, 1)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (2, 2)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (3, 3)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (0, 0)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (1, 1)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (2, 2)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (0, 0)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (1, 1)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (1, 1)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (2, 2)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (3, 3)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (0, 0)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (1, 1)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (2, 2)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (100, 100)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (100, 100)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (100, 100)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (100, 100)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (100, 100)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (100, 100)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (100, 100)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (100, 100)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (100, 100)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (100, 100)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (100, 100)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (100, 100)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (100, 100)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (100, 100)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (100, 100)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (100, 100)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (100, 100)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (100, 100)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (100, 100)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (100, 100)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (100, 100)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (100, 100)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (100, 100)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (100, 100)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (100, 100)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (100, 100)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (100, 100)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (100, 100)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (100, 100)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (100, 100)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (100, 100)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (100, 100)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO r (a, b) VALUES (100, 100)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (0, 0)
+Number of Disk I/O: 1   Elapsed time in milliseconds: 74.63
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (2, 2)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (3, 3)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (0, 0)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (0, 0)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (1, 1)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (1, 1)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (2, 2)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (2, 2)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (3, 3)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (3, 3)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (3, 3)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (0, 0)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (2, 2)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (3, 3)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (0, 0)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (0, 0)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (1, 1)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (1, 1)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (2, 2)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (2, 2)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (3, 3)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (3, 3)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (3, 3)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (101, 101)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (101, 101)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (101, 101)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (101, 101)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (101, 101)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (101, 101)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (101, 101)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (101, 101)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (101, 101)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (101, 101)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (101, 101)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (101, 101)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (101, 101)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (101, 101)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (101, 101)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (101, 101)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (101, 101)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (101, 101)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (101, 101)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (101, 101)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (101, 101)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (101, 101)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (101, 101)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (101, 101)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (101, 101)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (101, 101)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (101, 101)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (101, 101)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO s (b, c) VALUES (101, 101)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (0, 0)
+Number of Disk I/O: 1   Elapsed time in milliseconds: 74.63
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (1, 1)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (2, 2)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (0, 0)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (1, 1)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (1, 1)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (2, 2)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (3, 3)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (102, 102)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (102, 102)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (102, 102)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (102, 102)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (102, 102)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (102, 102)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (102, 102)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (102, 102)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (102, 102)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (102, 102)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (102, 102)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (102, 102)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (102, 102)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (102, 102)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (102, 102)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (102, 102)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (102, 102)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (102, 102)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (102, 102)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (102, 102)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (102, 102)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (102, 102)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (102, 102)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (102, 102)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (102, 102)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (102, 102)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (102, 102)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (102, 102)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (102, 102)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (102, 102)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (102, 102)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (102, 102)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t (a, c) VALUES (102, 102)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+SELECT * FROM r, s, t WHERE r.a = t.a AND r.b = s.b AND s.c = t.c
+
+s.b	s.c	t.a	t.c	r.a	r.b	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+3	3	3	3	3	3	
+3	3	3	3	3	3	
+3	3	3	3	3	3	
+3	3	3	3	3	3	
+3	3	3	3	3	3	
+3	3	3	3	3	3	
+3	3	3	3	3	3	
+3	3	3	3	3	3	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+3	3	3	3	3	3	
+3	3	3	3	3	3	
+3	3	3	3	3	3	
+3	3	3	3	3	3	
+3	3	3	3	3	3	
+3	3	3	3	3	3	
+3	3	3	3	3	3	
+3	3	3	3	3	3	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+1	1	1	1	1	1	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+2	2	2	2	2	2	
+
+Number of Disk I/O: 3066   Elapsed time in milliseconds: 228592
+### <------------------------------------------------------------------------> ###
+
+DROP TABLE r
+Dropped table successfully: r
+Number of Disk I/O: 0   Elapsed time in milliseconds: 0
+### <------------------------------------------------------------------------> ###
+
+DROP TABLE s
+Dropped table successfully: s
+Number of Disk I/O: 0   Elapsed time in milliseconds: 0
+### <------------------------------------------------------------------------> ###
+
+DROP TABLE t
+Dropped table successfully: t
+Number of Disk I/O: 0   Elapsed time in milliseconds: 0
+### <------------------------------------------------------------------------> ###
+
+CREATE TABLE t1 (c INT)
+Table: t1 created sucessfully
+Number of Disk I/O: 0   Elapsed time in milliseconds: 0
+### <------------------------------------------------------------------------> ###
+
+CREATE TABLE t2 (c INT)
+Table: t2 created sucessfully
+Number of Disk I/O: 0   Elapsed time in milliseconds: 0
+### <------------------------------------------------------------------------> ###
+
+CREATE TABLE t3 (c INT)
+Table: t3 created sucessfully
+Number of Disk I/O: 0   Elapsed time in milliseconds: 0
+### <------------------------------------------------------------------------> ###
+
+CREATE TABLE t4 (c INT)
+Table: t4 created sucessfully
+Number of Disk I/O: 0   Elapsed time in milliseconds: 0
+### <------------------------------------------------------------------------> ###
+
+CREATE TABLE t5 (c INT)
+Table: t5 created sucessfully
+Number of Disk I/O: 0   Elapsed time in milliseconds: 0
+### <------------------------------------------------------------------------> ###
+
+CREATE TABLE t6 (c INT)
+Table: t6 created sucessfully
+Number of Disk I/O: 0   Elapsed time in milliseconds: 0
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t1 (c) VALUES (0)
+Number of Disk I/O: 1   Elapsed time in milliseconds: 74.63
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t1 (c) VALUES (1)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t1 (c) VALUES (2)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t1 (c) VALUES (3)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t1 (c) VALUES (4)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t2 (c) VALUES (0)
+Number of Disk I/O: 1   Elapsed time in milliseconds: 74.63
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t2 (c) VALUES (1)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t2 (c) VALUES (2)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t2 (c) VALUES (3)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t3 (c) VALUES (0)
+Number of Disk I/O: 1   Elapsed time in milliseconds: 74.63
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t3 (c) VALUES (1)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t3 (c) VALUES (2)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t3 (c) VALUES (3)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t4 (c) VALUES (0)
+Number of Disk I/O: 1   Elapsed time in milliseconds: 74.63
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t4 (c) VALUES (1)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t5 (c) VALUES (0)
+Number of Disk I/O: 1   Elapsed time in milliseconds: 74.63
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t5 (c) VALUES (0)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO t6 (c) VALUES (0)
+Number of Disk I/O: 1   Elapsed time in milliseconds: 74.63
+### <------------------------------------------------------------------------> ###
+
+SELECT * FROM t1, t2, t3, t4, t5, t6
+
+t6.c	t5.c	t4.c	t3.c	t2.c	t1.c	
+0	0	0	0	0	0	
+0	0	0	0	0	0	
+0	0	1	0	0	0	
+0	0	1	0	0	0	
+0	0	0	1	0	0	
+0	0	0	1	0	0	
+0	0	1	1	0	0	
+0	0	1	1	0	0	
+0	0	0	2	0	0	
+0	0	0	2	0	0	
+0	0	1	2	0	0	
+0	0	1	2	0	0	
+0	0	0	3	0	0	
+0	0	0	3	0	0	
+0	0	1	3	0	0	
+0	0	1	3	0	0	
+0	0	0	0	1	0	
+0	0	0	0	1	0	
+0	0	1	0	1	0	
+0	0	1	0	1	0	
+0	0	0	1	1	0	
+0	0	0	1	1	0	
+0	0	1	1	1	0	
+0	0	1	1	1	0	
+0	0	0	2	1	0	
+0	0	0	2	1	0	
+0	0	1	2	1	0	
+0	0	1	2	1	0	
+0	0	0	3	1	0	
+0	0	0	3	1	0	
+0	0	1	3	1	0	
+0	0	1	3	1	0	
+0	0	0	0	2	0	
+0	0	0	0	2	0	
+0	0	1	0	2	0	
+0	0	1	0	2	0	
+0	0	0	1	2	0	
+0	0	0	1	2	0	
+0	0	1	1	2	0	
+0	0	1	1	2	0	
+0	0	0	2	2	0	
+0	0	0	2	2	0	
+0	0	1	2	2	0	
+0	0	1	2	2	0	
+0	0	0	3	2	0	
+0	0	0	3	2	0	
+0	0	1	3	2	0	
+0	0	1	3	2	0	
+0	0	0	0	3	0	
+0	0	0	0	3	0	
+0	0	1	0	3	0	
+0	0	1	0	3	0	
+0	0	0	1	3	0	
+0	0	0	1	3	0	
+0	0	1	1	3	0	
+0	0	1	1	3	0	
+0	0	0	2	3	0	
+0	0	0	2	3	0	
+0	0	1	2	3	0	
+0	0	1	2	3	0	
+0	0	0	3	3	0	
+0	0	0	3	3	0	
+0	0	1	3	3	0	
+0	0	1	3	3	0	
+0	0	0	0	0	1	
+0	0	0	0	0	1	
+0	0	1	0	0	1	
+0	0	1	0	0	1	
+0	0	0	1	0	1	
+0	0	0	1	0	1	
+0	0	1	1	0	1	
+0	0	1	1	0	1	
+0	0	0	2	0	1	
+0	0	0	2	0	1	
+0	0	1	2	0	1	
+0	0	1	2	0	1	
+0	0	0	3	0	1	
+0	0	0	3	0	1	
+0	0	1	3	0	1	
+0	0	1	3	0	1	
+0	0	0	0	1	1	
+0	0	0	0	1	1	
+0	0	1	0	1	1	
+0	0	1	0	1	1	
+0	0	0	1	1	1	
+0	0	0	1	1	1	
+0	0	1	1	1	1	
+0	0	1	1	1	1	
+0	0	0	2	1	1	
+0	0	0	2	1	1	
+0	0	1	2	1	1	
+0	0	1	2	1	1	
+0	0	0	3	1	1	
+0	0	0	3	1	1	
+0	0	1	3	1	1	
+0	0	1	3	1	1	
+0	0	0	0	2	1	
+0	0	0	0	2	1	
+0	0	1	0	2	1	
+0	0	1	0	2	1	
+0	0	0	1	2	1	
+0	0	0	1	2	1	
+0	0	1	1	2	1	
+0	0	1	1	2	1	
+0	0	0	2	2	1	
+0	0	0	2	2	1	
+0	0	1	2	2	1	
+0	0	1	2	2	1	
+0	0	0	3	2	1	
+0	0	0	3	2	1	
+0	0	1	3	2	1	
+0	0	1	3	2	1	
+0	0	0	0	3	1	
+0	0	0	0	3	1	
+0	0	1	0	3	1	
+0	0	1	0	3	1	
+0	0	0	1	3	1	
+0	0	0	1	3	1	
+0	0	1	1	3	1	
+0	0	1	1	3	1	
+0	0	0	2	3	1	
+0	0	0	2	3	1	
+0	0	1	2	3	1	
+0	0	1	2	3	1	
+0	0	0	3	3	1	
+0	0	0	3	3	1	
+0	0	1	3	3	1	
+0	0	1	3	3	1	
+0	0	0	0	0	2	
+0	0	0	0	0	2	
+0	0	1	0	0	2	
+0	0	1	0	0	2	
+0	0	0	1	0	2	
+0	0	0	1	0	2	
+0	0	1	1	0	2	
+0	0	1	1	0	2	
+0	0	0	2	0	2	
+0	0	0	2	0	2	
+0	0	1	2	0	2	
+0	0	1	2	0	2	
+0	0	0	3	0	2	
+0	0	0	3	0	2	
+0	0	1	3	0	2	
+0	0	1	3	0	2	
+0	0	0	0	1	2	
+0	0	0	0	1	2	
+0	0	1	0	1	2	
+0	0	1	0	1	2	
+0	0	0	1	1	2	
+0	0	0	1	1	2	
+0	0	1	1	1	2	
+0	0	1	1	1	2	
+0	0	0	2	1	2	
+0	0	0	2	1	2	
+0	0	1	2	1	2	
+0	0	1	2	1	2	
+0	0	0	3	1	2	
+0	0	0	3	1	2	
+0	0	1	3	1	2	
+0	0	1	3	1	2	
+0	0	0	0	2	2	
+0	0	0	0	2	2	
+0	0	1	0	2	2	
+0	0	1	0	2	2	
+0	0	0	1	2	2	
+0	0	0	1	2	2	
+0	0	1	1	2	2	
+0	0	1	1	2	2	
+0	0	0	2	2	2	
+0	0	0	2	2	2	
+0	0	1	2	2	2	
+0	0	1	2	2	2	
+0	0	0	3	2	2	
+0	0	0	3	2	2	
+0	0	1	3	2	2	
+0	0	1	3	2	2	
+0	0	0	0	3	2	
+0	0	0	0	3	2	
+0	0	1	0	3	2	
+0	0	1	0	3	2	
+0	0	0	1	3	2	
+0	0	0	1	3	2	
+0	0	1	1	3	2	
+0	0	1	1	3	2	
+0	0	0	2	3	2	
+0	0	0	2	3	2	
+0	0	1	2	3	2	
+0	0	1	2	3	2	
+0	0	0	3	3	2	
+0	0	0	3	3	2	
+0	0	1	3	3	2	
+0	0	1	3	3	2	
+0	0	0	0	0	3	
+0	0	0	0	0	3	
+0	0	1	0	0	3	
+0	0	1	0	0	3	
+0	0	0	1	0	3	
+0	0	0	1	0	3	
+0	0	1	1	0	3	
+0	0	1	1	0	3	
+0	0	0	2	0	3	
+0	0	0	2	0	3	
+0	0	1	2	0	3	
+0	0	1	2	0	3	
+0	0	0	3	0	3	
+0	0	0	3	0	3	
+0	0	1	3	0	3	
+0	0	1	3	0	3	
+0	0	0	0	1	3	
+0	0	0	0	1	3	
+0	0	1	0	1	3	
+0	0	1	0	1	3	
+0	0	0	1	1	3	
+0	0	0	1	1	3	
+0	0	1	1	1	3	
+0	0	1	1	1	3	
+0	0	0	2	1	3	
+0	0	0	2	1	3	
+0	0	1	2	1	3	
+0	0	1	2	1	3	
+0	0	0	3	1	3	
+0	0	0	3	1	3	
+0	0	1	3	1	3	
+0	0	1	3	1	3	
+0	0	0	0	2	3	
+0	0	0	0	2	3	
+0	0	1	0	2	3	
+0	0	1	0	2	3	
+0	0	0	1	2	3	
+0	0	0	1	2	3	
+0	0	1	1	2	3	
+0	0	1	1	2	3	
+0	0	0	2	2	3	
+0	0	0	2	2	3	
+0	0	1	2	2	3	
+0	0	1	2	2	3	
+0	0	0	3	2	3	
+0	0	0	3	2	3	
+0	0	1	3	2	3	
+0	0	1	3	2	3	
+0	0	0	0	3	3	
+0	0	0	0	3	3	
+0	0	1	0	3	3	
+0	0	1	0	3	3	
+0	0	0	1	3	3	
+0	0	0	1	3	3	
+0	0	1	1	3	3	
+0	0	1	1	3	3	
+0	0	0	2	3	3	
+0	0	0	2	3	3	
+0	0	1	2	3	3	
+0	0	1	2	3	3	
+0	0	0	3	3	3	
+0	0	0	3	3	3	
+0	0	1	3	3	3	
+0	0	1	3	3	3	
+0	0	0	0	0	4	
+0	0	0	0	0	4	
+0	0	1	0	0	4	
+0	0	1	0	0	4	
+0	0	0	1	0	4	
+0	0	0	1	0	4	
+0	0	1	1	0	4	
+0	0	1	1	0	4	
+0	0	0	2	0	4	
+0	0	0	2	0	4	
+0	0	1	2	0	4	
+0	0	1	2	0	4	
+0	0	0	3	0	4	
+0	0	0	3	0	4	
+0	0	1	3	0	4	
+0	0	1	3	0	4	
+0	0	0	0	1	4	
+0	0	0	0	1	4	
+0	0	1	0	1	4	
+0	0	1	0	1	4	
+0	0	0	1	1	4	
+0	0	0	1	1	4	
+0	0	1	1	1	4	
+0	0	1	1	1	4	
+0	0	0	2	1	4	
+0	0	0	2	1	4	
+0	0	1	2	1	4	
+0	0	1	2	1	4	
+0	0	0	3	1	4	
+0	0	0	3	1	4	
+0	0	1	3	1	4	
+0	0	1	3	1	4	
+0	0	0	0	2	4	
+0	0	0	0	2	4	
+0	0	1	0	2	4	
+0	0	1	0	2	4	
+0	0	0	1	2	4	
+0	0	0	1	2	4	
+0	0	1	1	2	4	
+0	0	1	1	2	4	
+0	0	0	2	2	4	
+0	0	0	2	2	4	
+0	0	1	2	2	4	
+0	0	1	2	2	4	
+0	0	0	3	2	4	
+0	0	0	3	2	4	
+0	0	1	3	2	4	
+0	0	1	3	2	4	
+0	0	0	0	3	4	
+0	0	0	0	3	4	
+0	0	1	0	3	4	
+0	0	1	0	3	4	
+0	0	0	1	3	4	
+0	0	0	1	3	4	
+0	0	1	1	3	4	
+0	0	1	1	3	4	
+0	0	0	2	3	4	
+0	0	0	2	3	4	
+0	0	1	2	3	4	
+0	0	1	2	3	4	
+0	0	0	3	3	4	
+0	0	0	3	3	4	
+0	0	1	3	3	4	
+0	0	1	3	3	4	
+
+Number of Disk I/O: 896   Elapsed time in milliseconds: 66868.5
+### <------------------------------------------------------------------------> ###
+
+DROP TABLE t1
+Dropped table successfully: t1
+Number of Disk I/O: 0   Elapsed time in milliseconds: 0
+### <------------------------------------------------------------------------> ###
+
+DROP TABLE t2
+Dropped table successfully: t2
+Number of Disk I/O: 0   Elapsed time in milliseconds: 0
+### <------------------------------------------------------------------------> ###
+
+DROP TABLE t3
+Dropped table successfully: t3
+Number of Disk I/O: 0   Elapsed time in milliseconds: 0
+### <------------------------------------------------------------------------> ###
+
+DROP TABLE t4
+Dropped table successfully: t4
+Number of Disk I/O: 0   Elapsed time in milliseconds: 0
+### <------------------------------------------------------------------------> ###
+
+DROP TABLE t5
+Dropped table successfully: t5
+Number of Disk I/O: 0   Elapsed time in milliseconds: 0
+### <------------------------------------------------------------------------> ###
+
+DROP TABLE t6
+Dropped table successfully: t6
+Number of Disk I/O: 0   Elapsed time in milliseconds: 0
+### <------------------------------------------------------------------------> ###
+
+Total Time Taken in seconds: 319.807

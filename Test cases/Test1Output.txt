@@ -1,0 +1,391 @@
+Output of TinySQL Query File: Test1.txt
+CREATE TABLE course (sid INT, homework INT, project INT, exam INT, grade STR20)
+Table: course created sucessfully
+Number of Disk I/O: 0   Elapsed time in milliseconds: 0
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO course (sid, homework, project, exam, grade) VALUES (1, 99, 100, 100, "A")
+Number of Disk I/O: 1   Elapsed time in milliseconds: 74.63
+### <------------------------------------------------------------------------> ###
+
+SELECT * FROM course
+
+sid	homework	project	exam	grade	
+1	99	100	100	A	
+
+Number of Disk I/O: 1   Elapsed time in milliseconds: 74.63
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO course (sid, homework, project, exam, grade) VALUES (2, 0, 100, 100, "E")
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO course (sid, grade, exam, project, homework) VALUES (3, "E", 100, 100, 100)
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO course (sid, homework, project, exam, grade) SELECT * FROM course
+Number of Disk I/O: 9   Elapsed time in milliseconds: 671.67
+### <------------------------------------------------------------------------> ###
+
+SELECT * FROM course
+
+sid	homework	project	exam	grade	
+1	99	100	100	A	
+2	0	100	100	E	
+3	100	100	100	E	
+1	99	100	100	A	
+2	0	100	100	E	
+3	100	100	100	E	
+
+Number of Disk I/O: 6   Elapsed time in milliseconds: 447.78
+### <------------------------------------------------------------------------> ###
+
+DELETE FROM course WHERE grade = "E"
+Number of Disk I/O: 7   Elapsed time in milliseconds: 522.41
+### <------------------------------------------------------------------------> ###
+
+SELECT * FROM course
+
+sid	homework	project	exam	grade	
+1	99	100	100	A	
+1	99	100	100	A	
+
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO course (sid, homework, project, exam, grade) VALUES (4, 99, 100, 100, "B")
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+DELETE FROM course
+Number of Disk I/O: 0   Elapsed time in milliseconds: 0
+### <------------------------------------------------------------------------> ###
+
+SELECT * FROM course
+
+sid	homework	project	exam	grade	
+
+Number of Disk I/O: 0   Elapsed time in milliseconds: 0
+### <------------------------------------------------------------------------> ###
+
+DROP TABLE course
+Dropped table successfully: course
+Number of Disk I/O: 0   Elapsed time in milliseconds: 0
+### <------------------------------------------------------------------------> ###
+
+CREATE TABLE course (sid INT, homework INT, project INT, exam INT, grade STR20)
+Table: course created sucessfully
+Number of Disk I/O: 0   Elapsed time in milliseconds: 0
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO course (sid, homework, project, exam, grade) VALUES (1, 99, 100, 100, "A")
+Number of Disk I/O: 1   Elapsed time in milliseconds: 74.63
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO course (sid, homework, project, exam, grade) VALUES (3, 100, 100, 98, "C")
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO course (sid, homework, project, exam, grade) VALUES (3, 100, 69, 64, "C")
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO course (sid, homework, project, exam, grade) VALUES (15, 100, 50, 90, "E")
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO course (sid, homework, project, exam, grade) VALUES (15, 100, 99, 100, "E")
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO course (sid, homework, project, exam, grade) VALUES (17, 100, 100, 100, "A")
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO course (sid, homework, project, exam, grade) VALUES (2, 100, 100, 99, "B")
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO course (sid, homework, project, exam, grade) VALUES (4, 100, 100, 97, "D")
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO course (sid, homework, project, exam, grade) VALUES (5, 100, 100, 66, "A")
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO course (sid, homework, project, exam, grade) VALUES (6, 100, 100, 65, "B")
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+SELECT * FROM course
+
+sid	homework	project	exam	grade	
+1	99	100	100	A	
+3	100	100	98	C	
+3	100	69	64	C	
+15	100	50	90	E	
+15	100	99	100	E	
+17	100	100	100	A	
+2	100	100	99	B	
+4	100	100	97	D	
+5	100	100	66	A	
+6	100	100	65	B	
+
+Number of Disk I/O: 10   Elapsed time in milliseconds: 746.3
+### <------------------------------------------------------------------------> ###
+
+SELECT sid, grade FROM course
+
+sid	grade	
+1	A	
+3	C	
+3	C	
+15	E	
+15	E	
+17	A	
+2	B	
+4	D	
+5	A	
+6	B	
+
+Number of Disk I/O: 10   Elapsed time in milliseconds: 746.3
+### <------------------------------------------------------------------------> ###
+
+SELECT * FROM course WHERE exam = 100
+
+sid	homework	project	exam	grade	
+1	99	100	100	A	
+15	100	99	100	E	
+17	100	100	100	A	
+
+Number of Disk I/O: 10   Elapsed time in milliseconds: 746.3
+### <------------------------------------------------------------------------> ###
+
+SELECT * FROM course WHERE exam = 100 AND project = 100
+
+sid	homework	project	exam	grade	
+1	99	100	100	A	
+17	100	100	100	A	
+
+Number of Disk I/O: 10   Elapsed time in milliseconds: 746.3
+### <------------------------------------------------------------------------> ###
+
+SELECT * FROM course WHERE exam = 100 OR exam = 99
+
+sid	homework	project	exam	grade	
+1	99	100	100	A	
+15	100	99	100	E	
+17	100	100	100	A	
+2	100	100	99	B	
+
+Number of Disk I/O: 10   Elapsed time in milliseconds: 746.3
+### <------------------------------------------------------------------------> ###
+
+SELECT * FROM course WHERE exam > 70
+
+sid	homework	project	exam	grade	
+1	99	100	100	A	
+3	100	100	98	C	
+15	100	50	90	E	
+15	100	99	100	E	
+17	100	100	100	A	
+2	100	100	99	B	
+4	100	100	97	D	
+
+Number of Disk I/O: 10   Elapsed time in milliseconds: 746.3
+### <------------------------------------------------------------------------> ###
+
+SELECT * FROM course WHERE (exam + homework) = 200
+
+sid	homework	project	exam	grade	
+15	100	99	100	E	
+17	100	100	100	A	
+
+Number of Disk I/O: 10   Elapsed time in milliseconds: 746.3
+### <------------------------------------------------------------------------> ###
+
+SELECT DISTINCT grade FROM course
+
+grade	
+A	
+A	
+A	
+B	
+B	
+C	
+C	
+D	
+E	
+E	
+
+Number of Disk I/O: 50   Elapsed time in milliseconds: 3540.16
+### <------------------------------------------------------------------------> ###
+
+SELECT DISTINCT * FROM course
+
+sid	homework	project	exam	grade	
+1	99	100	100	A	
+2	100	100	99	B	
+3	100	69	64	C	
+3	100	100	98	C	
+4	100	100	97	D	
+5	100	100	66	A	
+6	100	100	65	B	
+15	100	50	90	E	
+15	100	99	100	E	
+17	100	100	100	A	
+
+Number of Disk I/O: 30   Elapsed time in milliseconds: 2047.56
+### <------------------------------------------------------------------------> ###
+
+SELECT * FROM course ORDER BY sid
+
+sid	homework	project	exam	grade	
+1	99	100	100	A	
+2	100	100	99	B	
+3	100	69	64	C	
+3	100	100	98	C	
+4	100	100	97	D	
+5	100	100	66	A	
+6	100	100	65	B	
+15	100	50	90	E	
+15	100	99	100	E	
+17	100	100	100	A	
+
+Number of Disk I/O: 50   Elapsed time in milliseconds: 3540.16
+### <------------------------------------------------------------------------> ###
+
+DELETE FROM course
+Number of Disk I/O: 0   Elapsed time in milliseconds: 0
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO course (sid, homework, project, exam, grade) VALUES (1, 99, 100, 100, "A")
+Number of Disk I/O: 1   Elapsed time in milliseconds: 74.63
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO course (sid, homework, project, exam, grade) VALUES (3, 100, 100, 98, "C")
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO course (sid, homework, project, exam, grade) VALUES (3, 100, 69, 64, "C")
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO course (sid, homework, project, exam, grade) VALUES (15, 100, 50, 90, "E")
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO course (sid, homework, project, exam, grade) VALUES (15, 100, 99, 100, "E")
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+CREATE TABLE course2 (sid INT, exam INT, grade STR20)
+Table: course2 created sucessfully
+Number of Disk I/O: 0   Elapsed time in milliseconds: 0
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO course2 (sid, exam, grade) VALUES (1, 100, "A")
+Number of Disk I/O: 1   Elapsed time in milliseconds: 74.63
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO course2 (sid, exam, grade) VALUES (16, 25, "E")
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO course2 (sid, exam, grade) VALUES (17, 0, "A")
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO course2 (sid, exam, grade) VALUES (2, 99, "B")
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO course2 (sid, exam, grade) VALUES (3, 98, "C")
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+INSERT INTO course2 (sid, exam, grade) VALUES (4, 97, "D")
+Number of Disk I/O: 2   Elapsed time in milliseconds: 149.26
+### <------------------------------------------------------------------------> ###
+
+SELECT course.sid, course.grade, course2.grade FROM course, course2
+
+course.sid	course.grade	course2.grade	
+1	A	A	
+1	A	E	
+1	A	A	
+1	A	B	
+1	A	C	
+1	A	D	
+3	C	A	
+3	C	E	
+3	C	A	
+3	C	B	
+3	C	C	
+3	C	D	
+3	C	A	
+3	C	E	
+3	C	A	
+3	C	B	
+3	C	C	
+3	C	D	
+15	E	A	
+15	E	E	
+15	E	A	
+15	E	B	
+15	E	C	
+15	E	D	
+15	E	A	
+15	E	E	
+15	E	A	
+15	E	B	
+15	E	C	
+15	E	D	
+
+Number of Disk I/O: 8   Elapsed time in milliseconds: 575.78
+### <------------------------------------------------------------------------> ###
+
+SELECT course.grade, course2.grade FROM course, course2 WHERE course.sid = course2.sid
+
+course.grade	course2.grade	
+A	A	
+C	C	
+C	C	
+
+Number of Disk I/O: 8   Elapsed time in milliseconds: 575.78
+### <------------------------------------------------------------------------> ###
+
+SELECT * FROM course, course2 WHERE course.sid = course2.sid ORDER BY course.exam
+
+course2.sid	course2.exam	course2.grade	course.sid	course.homework	course.project	course.exam	course.grade	
+3	98	C	3	100	69	64	C	
+3	98	C	3	100	100	98	C	
+1	100	A	1	99	100	100	A	
+
+Number of Disk I/O: 8   Elapsed time in milliseconds: 575.78
+### <------------------------------------------------------------------------> ###
+
+SELECT * FROM course, course2 WHERE course.sid = course2.sid AND course.exam = 100 AND course2.exam = 100
+
+course2.sid	course2.exam	course2.grade	course.sid	course.homework	course.project	course.exam	course.grade	
+1	100	A	1	99	100	100	A	
+
+Number of Disk I/O: 8   Elapsed time in milliseconds: 575.78
+### <------------------------------------------------------------------------> ###
+
+SELECT DISTINCT course.grade, course2.grade FROM course, course2 WHERE course.sid = course2.sid AND course.grade = "A" AND course2.grade = "A" ORDER BY course.exam
+
+course.grade	course2.grade	
+A	A	
+
+Number of Disk I/O: 8   Elapsed time in milliseconds: 575.78
+### <------------------------------------------------------------------------> ###
+
+DROP TABLE course
+Dropped table successfully: course
+Number of Disk I/O: 0   Elapsed time in milliseconds: 0
+### <------------------------------------------------------------------------> ###
+
+Total Time Taken in seconds: 22.4058

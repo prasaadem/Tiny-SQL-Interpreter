@@ -1,0 +1,78 @@
+Analyzing Given Input
+Found Keyword:CREATE
+Analyzing <CreateTableStatement>
+Found Keyword:TABLE
+Analyzing <TableName>
+Found Tablename IDENTIFIER: movieinfo
+Found Syntax:(
+Analyzing <AttributeTypeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: movid
+Analyzing <DataType>
+Found DataType:INT
+Found Syntax:,
+Analyzing <AttributeTypeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: title
+Analyzing <DataType>
+Found DataType:STR20
+Found Syntax:,
+Analyzing <AttributeTypeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: year
+Analyzing <DataType>
+Found DataType:INT
+Found Syntax:,
+Analyzing <AttributeTypeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: duration
+Analyzing <DataType>
+Found DataType:INT
+Found Syntax:,
+Analyzing <AttributeTypeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: genre
+Analyzing <DataType>
+Found DataType:STR20
+Found Syntax:)
+Found EOF
+
+
+### <------------------------------------------------------------------------> ###
+Analyzing Given Input
+Found Keyword:CREATE
+Analyzing <CreateTableStatement>
+Found Keyword:TABLE
+Analyzing <TableName>
+Found Tablename IDENTIFIER: movieinfo
+Found Syntax:(
+Analyzing <AttributeTypeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: movid
+Analyzing <DataType>
+Found DataType:INT
+Found Syntax:,
+Analyzing <AttributeTypeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: title
+Analyzing <DataType>
+Found DataType:STR20
+Found Syntax:,
+Analyzing <AttributeTypeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: year
+Analyzing <DataType>
+Found DataType:INT
+Found Syntax:,
+Analyzing <AttributeTypeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: duration
+Analyzing <DataType>
+Found DataType:INT
+Found Syntax:,
+Analyzing <AttributeTypeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: genre
+Analyzing <DataType>
+Found DataType:STR20
+Found Syntax:)
